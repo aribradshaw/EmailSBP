@@ -1,0 +1,44 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore archives and compressed files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignore WordPress plugin build artifacts
+*.pot
+*.mo
+*.po
+
+# Ignore node/npm artifacts (if any)
+node_modules/
+npm-debug.log
+
+# Ignore composer artifacts (if any)
+vendor/
+composer.lock
+
+# Ignore backup files
+*~
+*.bak
+*.old
+
+# Ignore any personal config

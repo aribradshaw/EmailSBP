@@ -1,4 +1,4 @@
-# Email Subject and Body Populator Flygon LC
+# Email Subject and Body Populator by Flygon LC
 
 A WordPress plugin to generate mailto: links with customizable subject and body fields, using dynamic data from the current page or post. Features a user-friendly admin page to set the email address, subject/body templates (with placeholders), link style options (color, underline, bold, hover effects), and page exclusions. Includes a shortcode, detailed instructions, and a credit footer.
 
