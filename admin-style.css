@@ -1,0 +1,127 @@
+:root {
+    --sbp-primary: #a7534c;
+    --sbp-accent: #d0ebaf;
+    --sbp-success: #7cb880;
+    --sbp-dark: #324b34;
+    --sbp-warn: #d77881;
+}
+/* Email SBP Admin Styles */
+.email-sbp-admin-wrap {
+    max-width: 900px;
+    margin: 32px auto;
+    padding: 32px 32px 32px 48px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px var(#0002);
+    /* border-left: 8px solid var(--sbp-primary); */
+}
+.email-sbp-logo {
+    display: block;
+    margin: 0;
+    height: 38px;
+    width: auto;
+}
+.email-sbp-admin-wrap h1 {
+    color: #111;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0.5em;
+}
+.email-sbp-admin-table th {
+    text-align: left;
+    padding-right: 1em;
+    vertical-align: top;
+    color: var(--sbp-dark);
+}
+.email-sbp-admin-table td {
+    padding-bottom: 1.5em;
+}
+.email-sbp-admin-table input[type="email"],
+.email-sbp-admin-table textarea {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 4px;
+    border: 1.5px solid #ccc;
+    padding: 6px 10px;
+    font-size: 1em;
+    background: #f9fdf7;
+}
+.email-sbp-admin-table input[type="color"] {
+    width: 40px;
+    height: 30px;
+    border: none;
+    background: none;
+}
+.email-sbp-admin-table select[multiple] {
+    min-height: 100px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 4px;
+    border: 1.5px solid #ccc;
+    padding: 6px 10px;
+    background: #f9fdf7;
+}
+.email-sbp-admin-table small {
+    color: var(--sbp-dark);
+    opacity: 0.7;
+}
+.email-sbp-link-style-group {
+    background: #f6f8fa;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 18px 20px 10px 20px;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+.email-sbp-link-style-group legend {
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+}
+.email-sbp-link-style-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 32px;
+    align-items: center;
+}
+.email-sbp-admin-wrap .form-table {
+    border-top: 2px solid var(--sbp-accent);
+    margin-bottom: 1.5em;
+}
+.email-sbp-admin-wrap .email-sbp-footer {
+    color: var(--sbp-dark);
+    border-top: 1.5px solid #e0e0e0;
+    padding-top: 1em;
+    margin-top: 2em;
+    font-size: 0.95em;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.email-sbp-footer-centered {
+    justify-content: center;
+    text-align: center;
+}
+.email-sbp-footer-centered img {
+    margin: 0 10px 0 0;
+}
+.email-sbp-info-box {
+    background: rgba(208,235,175,0.18); /* subtle accent */
+    border: 1.5px solid var(--sbp-accent);
+    color: var(--sbp-dark);
+    border-radius: 8px;
+    padding: 1.2em;
+    margin-bottom: 2em;
+    box-shadow: 0 2px 12px var(#0001);
+}
+@media (max-width: 600px) {
+    .email-sbp-admin-wrap {
+        padding: 16px 4vw;
+    }
+    .email-sbp-link-style-grid {
+        grid-template-columns: 1fr;
+    }
+}
