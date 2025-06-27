@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Email Subject and Body Populator Flygon LC
+ * Plugin Name: Email Subject and Body Populator by Flygon LC
  * Description: A lightweight WordPress plugin to generate mailto links with customizable subject and body content.
  * Version: 1.1
  * Author: Ari Daniel Bradshaw - Flygon LC
